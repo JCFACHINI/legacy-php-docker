@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    image: jcfachini/lamp5.6
+    build: .
+    ports:
+      - "80:80"
+      - "3306:3306"
+    volumes:
+      - .:/var/www/html
+    command:
+      - ./docker.sh
