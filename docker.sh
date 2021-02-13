@@ -21,4 +21,3 @@ apt-get -y install php5.6-xml
 apt-get -y install php5.6-xdebug
 
 /usr/sbin/apachectl -DFOREGROUND -k start -e debug
-~                                                      
